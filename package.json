@@ -1,0 +1,39 @@
+{
+  "name": "sleuthhound",
+  "version": "0.0.1",
+  "description": "sleuthhound issue tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production & node server.js",
+    "dev": "nodemon server",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfguerrero/sleuthhound.git"
+  },
+  "keywords": [
+    "issues",
+    "tracker",
+    "bug",
+    "tracker",
+    "open",
+    "source"
+  ],
+  "author": "Mario Felix Guerrero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfguerrero/sleuthhound/issues"
+  },
+  "homepage": "https://github.com/mfguerrero/sleuthhound#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
